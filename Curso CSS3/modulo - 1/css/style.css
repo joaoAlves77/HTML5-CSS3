@@ -1,0 +1,85 @@
+body{background-color: blue;}
+
+
+
+/* AULA 17
+#exemplo{width:500px; height: 200px;background-color: red;}
+#exemplo:hover{width: 350px; height: 350px; background-color: green;}
+*/
+
+/* AULA 16
+#exemplo {border: solid 5px blue;}
+*/
+
+/* AULA 15
+#conteudo{width: 600px; height: 1200px; background-color: red; position: relative;}
+#texto{width: 500px; background-color: green; position: fixed; left: 0; top: 40px;}
+*/
+
+/* AULA 14s
+#base {background-color: green; width: 600px; height: 600px;}
+#esquerda {background-color: red; width: 300px; height: 300px;float: left;}
+#direita {background-color: blue; width: 300px; height: 300px; float: right;}
+*/
+
+/* AULA 13
+#cores {width: 200px; height: 200px; background: linear-gradient(red,blue);}
+*/
+
+/* AULA 12
+*{font-size: 100%;}
+p {font-family: Arial, Verdana, sans-serif; font-variant: small-caps; font-size: 2.5em;}
+*/
+
+/* AULA 11
+#bloco {background-color: green; width: 300px; height: 150px; border-radius: 20px;}
+*/
+
+/* AULA 10
+#conteudo {background-color: red; width: 300px; height: 70px; overflow: auto;}
+#conteudo p {opacity: 0.5;}
+*/
+
+/* AULA 09
+*{box-sizing: border-box;}
+#conteudo{background-color: red; width: 300px; padding: 20px; box-shadow: 10px 10px 5px green;}
+*/
+/* AULA 08
+p {color: blue; text-transform: uppercase;}
+h1 {text-align: left; text-decoration: underline;}
+h2 {text-align: right; text-decoration: overline;}
+h3 {text-align: center; text-decoration: line-through;}
+*/
+
+/* AULA 07
+#exemplo {background-color: blue; color: azure; width: 500px; padding: 10px 20px 30px 30px;}
+#exemplo2 {background-color: rgb(205, 33, 136); color: azure; width: 500px; margin: 20px 30px 20px 40px;}
+*/
+
+/* AULA 06
+#conteudo {width: 80%; height: 100px; background-color: green; color: #fff; padding: 20px;}
+*/
+
+/* AULA 05
+.texto-principal {color: red; text-align: center;}
+#conteudo {background-color: blue; padding: 20px; color: green;}
+*/
+
+/* AULA 04
+h1,h2,p {color: red; text-align: center;}
+*/
+
+/* AULA 02 E 03
+*{margin: 0; padding: 0;}
+
+h1 {color: blue; font-size: 50px;}
+p {color: green; font-size: 12px;}
+
+input[type="text"]{width: 200px; background-color: #ccc; height: 35px; border: none;}
+input[type="email"]{width: 200px; background-color: #ccc; height: 35px; border: none;}
+input[type="submit"]{width: 50px; background-color: green; height: 35px; border: none; cursor: pointer; color: #fff;}
+*/
+
+/* AULA 01
+h1 {color: blue; font-size: 60px; font-family: tahoma;}
+*/

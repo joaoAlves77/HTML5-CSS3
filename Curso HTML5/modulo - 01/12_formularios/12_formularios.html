@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Formulários</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <form action="cadastro.php" method="get">
+
+        <fieldset>
+        <legend> Informações pessoais </legend>
+
+        Nome:<br>
+        <input type="text" name="nome" required autofocus maxlength="5"><br>
+        senha:<br>
+        <input type="password" name="senha"><br>
+        Email:<br> 
+        <input type="email" name="email" autocomplete="on" placeholder="exemplo@gmail.com"><br>
+        Imagem:<br>
+        <input type="file" name="imagem"><br>
+        <input type="hidden" name="id"><br>
+        <br>
+        Data:<br>
+        <input type="date" nome="data" min="2005-12-31" max="2023-12-31"><br>
+        <br>
+        Hora:<br>
+        <input type="time" nome="Hora"><br>
+        <br>
+        Mês e ano:<br>
+        <input type="month" name="Mês-ano"><br>
+        <br>
+        Semana:<br>
+        <input type="week" name="semana"><br>
+        <br>
+        Data e hora:<br>
+        <input type="datetime-local" name="data-e-hora"><br>
+        <br>
+        Mensagem:<br>
+        <textarea name="Mensagem" rows="5" cols="30" spellcheck="false"></textarea>
+        <button type="button"> Clique-me</button><br>
+        <br>
+        Escolha seu veículo:<br>
+        <select name="veiculo">
+        <optgroup label="Carros">
+        <option value="caramo"> Camaro</option>
+        <option value="hilux"> Hixul</option>
+        </optgroup>    
+
+        <optgroup label="Motos">
+        <option value="pop100"> Pop 100</option>
+        <option value="Zig-50"> Zig-50</option>
+        </optgroup>
+        </select>
+        <br>
+        Escolha um curso;<br>
+        <input name="cursos" list="lista-cursos">
+        <datalist id="lista-cursos">
+        <option value="HTML5">
+        <option value="CSS3">
+        <option value="PHP">
+        </datalist>
+        <br>
+        URL:<br>
+        <input type="url" name="site"><br>
+        <br>
+        Search:<br>
+        <input type="search" name="pesquisa"><br>
+        <br>
+        Telefone:<br>
+        <input type="tel" name="telefone"><br>
+        <br>
+        Time:<br>
+        <input type="radio" name="time" value="Flamengo">Flamengo<br>
+        <input type="radio" name="time" value="Santos">Santos<br>
+        <input type="radio" name="time" value="Real">Real<br>
+        <input type="radio" name="time" value="Psg">Psg<br>
+        <br>
+        Cores:<br>
+        <input type="checkbox" name="cores" value="Verde">Verde<br>
+        <input type="checkbox" name="cores" value="Azul">Azul<br>
+        <input type="checkbox" name="cores" value="Branco">Branco<br>
+        <br>
+        Quantidade:<br>
+        <input type="number" name="quantidade" min="0" max="500" step="10"><br>
+        <input type="range" nome="quantidade"><br>
+        <br>
+        Cor:<br>
+        <input type="color" name="cor"><br>
+        
+        <input type="submit" name="btn-enviar" value="Enviar">
+    </fieldset>
+    </form>
+</body>
+</html>
